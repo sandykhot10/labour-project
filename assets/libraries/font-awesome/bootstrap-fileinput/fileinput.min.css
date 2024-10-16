@@ -1,0 +1,74 @@
+/* Minified CSS for Bootstrap File Input */
+.fileinput {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.fileinput-new,
+.fileinput-exists {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fileinput-button {
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.fileinput-preview {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.fileinput-preview img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fileinput-new input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.fileinput-preview .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.fileinput-upload {
+    display: inline-block;
+}
+
+.fileinput-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.fileinput-error {
+    border-color: #a94442;
+}
+
+.fileinput-error .fileinput-preview {
+    border-color: #a94442;
+}
+
+.fileinput-error .fileinput-button {
+    color: #a94442;
+}

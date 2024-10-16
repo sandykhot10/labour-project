@@ -7,23 +7,29 @@ session_start();
 <html>
 
 
-<!-- Mirrored from preview.byaviators.com/template/profession/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Aug 2018 11:09:11 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
-    <link href="assets/fonts/profession/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-wysiwyg/bootstrap-wysiwyg.min.css" rel="stylesheet" type="text/css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Font Awesome (CDN version) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS (CDN version) -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your custom style -->
     <link href="assets/css/profession-black-green.css" rel="stylesheet" type="text/css" id="style-primary">
 
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.jpeg">
+    <link rel="stylesheet" href="path/to/styles.css">
 
-    <title>Labour Portal </title>
+
+    <title>Labour Portal</title>
 </head>
 
 <body class="hero-content-dark footer-dark">
@@ -148,34 +154,13 @@ session_start();
 > <span class="role"></span></div>
                 <h2>Well trusted and verified Contractors all around the world are using our platform to find best labours.</h2>
 
-            </div><!-- /.col-* -->
+            </div>
 
 
         </div><!-- /.row -->
     </div><!-- /.container -->
-</div><!-- /.hero-content -->
+</div>
 
-
-<!-- <div class="stats">
-    <div class="container">
-        <div class="row">
-            <div class="stat-item col-sm-4" >
-                <strong id="stat-item-1">6,358</strong>
-                <span>Labours Added</span>
-            </div><!-- /.col-* -->
-<!-- 
-            <div class="stat-item col-sm-4" >
-                <strong id="stat-item-2">78</strong>
-                <span>Contractor Available </span>
-            </div><!-- /.col-* -->
-
-            <!-- <div class="stat-item col-sm-4" >
-                <strong id="stat-item-3">4,304</strong>
-                <span>Positions Matched</span> --> -->
-            <!-- </div>/.col-* -->
-        <!-- </div>/.row -->
-    <!-- </div>/.container -->
-<!-- </div>/.stats --> 
 
 
 <div class="container">
@@ -332,150 +317,6 @@ session_start();
 		</div><!-- /.cta-text-inner -->
 	</div><!-- /.container -->
 </div>
-
-
-        <!-- </div>/.main -->
-    <!-- </div> -->
-
-    <!-- <div class="footer-wrapper"> -->
-    <!-- <div class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5">
-                        <div class="footer-top-block">
-                            <h2><i class="profession profession-logo"></i>SeekForJob </h2>
-
-                            <p>
-                              SeekForJob is a new online recruiting service that takes the pain out of job search. We make it easier to find a great job that you'll love.
-                            </p>
-
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                            </ul>
-                        </div><!-- /.footer-top-block -->
-                    </div><!-- /.col-* -->
-<!-- 
-                    <div class="col-sm-3 col-sm-offset-1">
-                        <div class="footer-top-block">
-                            <h2>Helpful Links</h2>
-
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">License</a></li>
-                                <li><a href="#">Affiliate</a></li>
-
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul> -->
-                        <!-- </div>/.footer-top-block -->
-                    <!-- </div>/.col-* -->
-
-                    <!-- <div class="col-sm-3">
-                        <div class="footer-top-block">
-                            <h2>Trending Jobs</h2>
-
-                            <ul>
-                                <li><a href="position-detail.php">Android Developer</a></li>
-                                <li><a href="position-detail.php">Senior Teamleader</a></li>
-                                <li><a href="position-detail.php">iOS Developer</a></li>
-                                <li><a href="position-detail.php">Junior Tester</a></li>
-                                <li><a href="position-detail.php">Full Stack Developer</a></li>
-                                <li><a href="position-detail.php">Node.js Developer</a></li>
-                                <li><a href="position-detail.php">Scala Developer</a></li>
-                            </ul>
-                        </div><!-- /.footer-top-left -->
-                    </div>/
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.footer-top -->
-
-        <!-- <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-left"> -->
-                    <!-- &copy; <a href="#">SeekJorJob</a>, 2015 All rights reserved. -->
-                <!-- </div>/.footer-bottom-left -->
-
-                <!-- <div class="footer-bottom-right"> -->
-                    <!-- Created by  -->
-                <!-- </div>/.footer-bottom-right -->
-            <!-- </div>/.container -->
-        <!-- </div>/.footer-bottom -->
-    <!-- </div> -->
-<!-- </div>  -->
-
-<!-- </div>/.page-wrapper -->
-
-<!-- <div class="action-bar"> -->
-    <div class="action-bar-content">
-        <div class="action-bar-chapter">
-            <strong>Choose Page Layout</strong>
-
-            <ul>
-                <li><a href="#" data-action="layout-wide" class="active">Wide</a></li><li><a href="#" data-action="layout-boxed">Boxed</a></li>
-            </ul>
-        </div><!-- /.action-bar-chapter -->
-
-        <div class="action-bar-chapter">
-            <strong>Header Style</strong>
-
-            <ul>
-                <li><a href="#" class="active" data-action="header-light">Light</a></li><li><a href="#" data-action="header-dark">Dark</a></li>
-            </ul>
-        </div><!-- /.action-bar-chapter -->
-
-        <div class="action-bar-chapter">
-            <strong>Navigation Style</strong>
-
-            <ul>
-                <li><a href="#" data-action="navigation-light">Light</a></li><li><a href="#" class="active" data-action="navigation-dark">Dark</a></li>
-            </ul>
-        </div><!-- /.action-bar-chapter -->
-
-        <div class="action-bar-chapter">
-            <strong>Hero Content Style</strong>
-
-            <ul>
-                <li><a href="#" data-action="hero-content-light">Light</a></li><li><a href="#" class="active" data-action="hero-content-dark">Dark</a></li>
-            </ul>
-        </div><!-- /.action-bar-chapter -->
-
-        <div class="action-bar-chapter">
-            <strong>Footer Style</strong>
-
-            <ul>
-                <li><a href="#" data-action="footer-light">Light</a></li><li><a href="#"  class="active" data-action="footer-dark">Dark</a></li>
-            </ul>
-        </div><!-- /.action-bar-chapter -->
-
-        <div class="action-bar-chapter">
-            <strong>Color Combination</strong>
-
-            <table>
-                <tr>
-                    <td><a href="assets/css/profession-purple-red.css">Purple / Red</a></td>
-                    <td><a href="assets/css/profession-blue-cyan.css">Blue / Cyan</a></td>
-                </tr>
-
-                <tr>
-                    <td><a href="assets/css/profession-gray-orange.css">Gray / Orange</a></td>
-                    <td><a href="assets/css/profession-black-green.css" class="active">Black / Green</a></td>
-                </tr>
-
-                <tr>
-                    <td><a href="assets/css/profession-blue-navy.css">Blue / Navy</a></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-
-
 <script>
       var typeData = new Typed(".role", {
         strings: ["Contractors", "Sub-Contractors", "Workers"],

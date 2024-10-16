@@ -1,0 +1,66 @@
+/* Minified CSS for Bootstrap Select */
+.bootstrap-select .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.bootstrap-select .dropdown-toggle .filter-option .filter-option-inner-inner {
+    overflow: hidden;
+}
+.bootstrap-select .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.bootstrap-select .dropdown-menu > .inner {
+    overflow-y: auto;
+    max-height: 200px;
+}
+.bootstrap-select .dropdown-menu .disabled a {
+    cursor: not-allowed;
+}
+.bootstrap-select .dropdown-menu li a {
+    display: block;
+    width: 100%;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    white-space: nowrap;
+}
+.bootstrap-select .dropdown-menu .active a {
+    color: #fff;
+    background-color: #337ab7;
+}
+.bootstrap-select .dropdown-toggle .caret {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 12px;
+}
+.bootstrap-select .dropdown-toggle .filter-option {
+    white-space: nowrap;
+}
+.bootstrap-select .dropdown-menu > li.active small {
+    color: #fff;
+}
+.bootstrap-select .dropdown-menu > li.active a {
+    color: #fff;
+    background-color: #337ab7;
+}
+.bootstrap-select .dropdown-menu li a span {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+.bootstrap-select .dropdown-menu > li small {
+    padding-left: 5px;
+}
+.bootstrap-select .dropdown-menu .notify {
+    padding: 5px 15px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 12px;
+}

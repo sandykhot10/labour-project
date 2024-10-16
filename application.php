@@ -8,16 +8,31 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
-    <link href="assets/fonts/profession/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-wysiwyg/bootstrap-wysiwyg.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome (CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap File Input (CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.2.3/css/fileinput.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Select (CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap WYSIWYG (CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-wysiwyg/0.3.3/bootstrap-wysiwyg.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Your Custom CSS (You can host it online or create a new one) -->
     <link href="assets/css/profession-black-green.css" rel="stylesheet" type="text/css" id="style-primary">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+
     <title>Profession - Account Registration</title>
 </head>
+
 <body class="hero-content-dark footer-dark">
 <div class="page-wrapper">
     <div class="header-wrapper">

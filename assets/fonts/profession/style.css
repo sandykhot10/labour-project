@@ -1,0 +1,96 @@
+/* Base Font Icon Styles */
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'ProfessionFont'; /* Custom font name */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sample icon classes */
+.icon-user:before {
+    content: "\e900"; /* Unicode for user icon */
+}
+
+.icon-briefcase:before {
+    content: "\e901"; /* Unicode for briefcase icon */
+}
+
+.icon-envelope:before {
+    content: "\e902"; /* Unicode for envelope icon */
+}
+
+.icon-phone:before {
+    content: "\e903"; /* Unicode for phone icon */
+}
+
+.icon-calendar:before {
+    content: "\e904"; /* Unicode for calendar icon */
+}
+
+.icon-location:before {
+    content: "\e905"; /* Unicode for location icon */
+}
+
+.icon-lock:before {
+    content: "\e906"; /* Unicode for lock icon */
+}
+
+.icon-search:before {
+    content: "\e907"; /* Unicode for search icon */
+}
+
+.icon-cog:before {
+    content: "\e908"; /* Unicode for cog (settings) icon */
+}
+
+.icon-checkmark:before {
+    content: "\e909"; /* Unicode for checkmark icon */
+}
+
+/* Sizing classes */
+.icon-small {
+    font-size: 16px;
+}
+
+.icon-medium {
+    font-size: 24px;
+}
+
+.icon-large {
+    font-size: 32px;
+}
+
+.icon-xl {
+    font-size: 48px;
+}
+
+/* Alignment */
+.icon-left {
+    margin-right: 8px;
+}
+
+.icon-right {
+    margin-left: 8px;
+}
+
+.icon-center {
+    text-align: center;
+    display: block;
+}
+
+/* Rotating Icons */
+.icon-rotate-90 {
+    transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+    transform: rotate(270deg);
+}
